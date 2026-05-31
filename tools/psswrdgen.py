@@ -3,7 +3,9 @@ import string
 
 #provide password label
 #generate a password based off the requirements
-#store it in a txt file
+#store it in a txt file or something
+# switch from txt to encrypted json?
+
 
 def password():
     chars = string.ascii_letters
