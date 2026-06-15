@@ -10,6 +10,7 @@ def main():
     print("2. Web Scraper")
     print("3. Password Generator")
     print("4. Video Downloader")
+    print("5. BMI calculator")
     print("q. Exit")
     print("===============================================")
 
@@ -23,6 +24,8 @@ def main():
         psswrdgen.password()
     elif case == "4":
         ytdwnldr.downloader()
+    elif case == "5":
+        BMI.calculate()
     elif case == "q":
         print("Goodbye!")
     else:
